@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script>
+    function fooment(){
+      var hell = document.getElementById("foo");
+      hell.onclick = showme;
+    };
+    
+    function showme(event){
+      alert("hello world");
+    }
+  </script>
+</head>
+<body onload="fooment()">
+  <a href="" id="foo">hello</a>
+</body>
+</html>
